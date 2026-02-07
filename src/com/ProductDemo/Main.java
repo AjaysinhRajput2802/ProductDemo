@@ -9,7 +9,7 @@ public class Main {
 
 		ProductService service = new ProductService();
 
-		service.addProduct(new Product("Type C", "Cable", "Black Drawer", 2024));
+		/*service.addProduct(new Product("Type C", "Cable", "Black Drawer", 2024));
 		service.addProduct(new Product("Mac Studio", "Computer", "White Table", 2025));
 		service.addProduct(new Product("Focusrite Mixer", "Audio System", "White Table", 2025));
 
@@ -27,7 +27,7 @@ public class Main {
 		
 		service.addProduct(new Product("Apple Mouse", "Mouse", "White Table", 2022));
 		service.addProduct(new Product("Lenovo Mouse", "Mouse", "Black Drawer", 2022));
-		service.addProduct(new Product("BlackBeast", "Computer", "White Table", 2020));
+		service.addProduct(new Product("BlackBeast", "Computer", "White Table", 2020));*/
 		
 		List<Product> products = service.getAllProducts();
 		for(Product p : products)
